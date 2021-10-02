@@ -6,7 +6,10 @@
 \definecolor{redRoma}{RGB}{130,36,51}
 \definecolor{blueRoma}{RGB}{0,103,120}
 \definecolor{lightblueRoma}{RGB}{0,179,190}
-%\definecolor{blueRoma}{HTML}{006778}
+\definecolor{greenRoma}{RGB}{112,164,137}
+\definecolor{lightgreenRoma}{RGB}{170,201,182}
+\definecolor{orangeRoma}{RGB}{197,76,0}
+\definecolor{lightorangeRoma}{RGB}{246,146,64}
 
 % Settings
 \setbeamercolor*{palette primary}{fg=white,bg=redRoma}
@@ -36,12 +39,12 @@
 
 % Block settings
 \setbeamercolor*{block title}{use=structure,bg=blueRoma,fg=white}
-\setbeamercolor*{block title alerted}{use=structure,bg=redRoma,fg=white}
-\setbeamercolor*{block title example}{use=example text,fg=white,bg=example text.fg!75!black}
+\setbeamercolor*{block title alerted}{use=structure,bg=orangeRoma,fg=white}
+\setbeamercolor*{block title example}{use=example text,bg=greenRoma,fg=white}
 
-\setbeamercolor*{block body}{use=block title,bg=block title.bg!10!bg,fg=black}
-\setbeamercolor*{block body alerted}{use=block title alerted,bg=block title alerted.bg!10!bg,fg=black}
-\setbeamercolor*{block body example}{parent=normal text,use=block title example,bg=block title example.bg!10!bg}
+\setbeamercolor*{block body}{use=block title,fg=black,,bg=lightblueRoma!10!bg}
+\setbeamercolor*{block body alerted}{use=block title alerted,bg=lightorangeRoma!10!bg,fg=black}
+\setbeamercolor*{block body example}{parent=normal text,use=block title example,bg=lightgreenRoma!10!bg, fg=black}
 
 \mode
 <all>
